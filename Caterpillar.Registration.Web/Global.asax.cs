@@ -10,6 +10,7 @@ namespace Caterpillar.Registration.Web
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+		// App Start
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
