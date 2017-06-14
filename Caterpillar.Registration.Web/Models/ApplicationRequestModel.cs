@@ -6,6 +6,7 @@ using System.Web;
 
 namespace Caterpillar.Registration.Web.Models
 {
+    //Application model
     public class ApplicationRequestModel
     {
         [JsonProperty("applicationid")]
